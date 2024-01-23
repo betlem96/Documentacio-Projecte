@@ -2,7 +2,7 @@
 
 ## 1. MENÚ
 El menú consta de 7 opcions, les sis primeres són les eines i l'opció 7 és ficar una "q" i surt del menú.
-![Menú](/home/alumne/Documents/2on/Projecte/menu.png)
+![Menú](https://github.com/betlem96/Documentacio-Projecte/tree/main/imatges/menu.png)
 
 Per a consultar el codi entreu a aquesta URL:
 ```
