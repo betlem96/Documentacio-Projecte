@@ -49,41 +49,41 @@ En aquesta eina quan entrem hi ha un menú amb diferents opcions:
 
 **Entrada**
 
-![Opció 1](https://github.com/betlem96/Documentacio-Projecte/tree/main/imatges/esc1.png)
+![Opció 1](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/esc1.png)
 
 **Sortida**
 
-![Opció 1](https://github.com/betlem96/Documentacio-Projecte/tree/main/imatges/esc1-2.png)
+![Opció 1](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/esc1-2.png)
 
 ### Opció 2
 
 **Entrada**
 
-![Opció 2](https://github.com/betlem96/Documentacio-Projecte/tree/main/imatges/esca2.png)
+![Opció 2](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/esca2.png)
 
 **Sortida**
 
-![Opció 2](https://github.com/betlem96/Documentacio-Projecte/tree/main/imatges/esc2-1.png)
+![Opció 2](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/esc2-1.png)
 
 ### Opció 3
 
 **Entrada**
 
-![Opció 3](https://github.com/betlem96/Documentacio-Projecte/tree/main/imatges/esc3.png)
+![Opció 3](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/esc3.png)
 
 **Sortida**
 
-![Opció 3](https://github.com/betlem96/Documentacio-Projecte/tree/main/imatges/esc3-1.png)
+![Opció 3](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/esc3-1.png)
 
 ### Opció 4
 
 **Entrada**
 
-![Opció 4](https://github.com/betlem96/Documentacio-Projecte/tree/main/imatges/esc4.png)
+![Opció 4](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/esc4.png)
 
 **Sortida**
 
-![Opció 4](https://github.com/betlem96/Documentacio-Projecte/tree/main/imatges/esc4-1.png)
+![Opció 4](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/esc4-1.png)
 
 Per a consultar el codi entreu a aquesta URL:
 ```
