@@ -43,7 +43,7 @@ Per a consultar el codi entreu a aquesta URL:
 ## 4. ESCANEIG
 En aquesta eina quan entrem hi ha un menú amb diferents opcions:
 
-![Menú escaneig](https://github.com/betlem96/Documentacio-Projecte/tree/main/imatges/escm.png)
+![Menú escaneig](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/escm.png)
 
 ### Opció 1
 
