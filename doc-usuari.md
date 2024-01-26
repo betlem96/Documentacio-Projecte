@@ -1,4 +1,4 @@
-# DGUIA D'USUARI DE L'APLICACIÓ BAS SOLUTIONS
+# GUIA D'USUARI DE L'APLICACIÓ BAS SOLUTIONS
 
 ## 1. MENÚ
 El menú consta de 7 opcions, les sis primeres són les eines i l'opció 7 és ficar una "q" i surt del menú.
