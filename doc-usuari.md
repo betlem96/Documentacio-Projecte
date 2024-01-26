@@ -59,6 +59,8 @@ En aquesta eina quan entrem hi ha un menú amb diferents opcions:
 
 ### Opció 1
 
+L'opció 1 ens ofereix escanejar i descobrir els host o equips que estan connectats a la nostra xarxa.
+
 **Entrada**
 
 ![Opció 1](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/esc1.png)
@@ -68,6 +70,8 @@ En aquesta eina quan entrem hi ha un menú amb diferents opcions:
 ![Opció 1](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/esc1-2.png)
 
 ### Opció 2
+
+L'opció 2 ens permet escanejar tots els ports de la nostra xarxa que estan obert.
 
 **Entrada**
 
@@ -79,6 +83,8 @@ En aquesta eina quan entrem hi ha un menú amb diferents opcions:
 
 ### Opció 3
 
+L'opció 3 ens permet saber les versions i els serveis que hi ha a l'IP que li diem.
+
 **Entrada**
 
 ![Opció 3](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/esc3.png)
@@ -88,6 +94,8 @@ En aquesta eina quan entrem hi ha un menú amb diferents opcions:
 ![Opció 3](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/esc3-1.png)
 
 ### Opció 4
+
+L'opció 4 ens permet veure totes les vulnerabilitats que hi ha l'IP que li diem com per exemple els ports que estan oberts a aquell equip.
 
 **Entrada**
 
@@ -105,6 +113,8 @@ https://github.com/SergiRoigSanchez/BAS-Solutions/blob/main/tasca4_escaneig.py
 ## 5. SSH
 
 SSH, que significa "Secure Shell" (Cau segura), és un protocol de comunicació segura que s'utilitza per accedir i gestionar remotament dispositius o servidors a través d'una xarxa. Aquest protocol proporciona una connexió segura, encriptada i autenticada entre dos dispositius, permetent l'accés a la línia de comandes o la transferència segura de fitxers.
+
+Aquesta eina ens donarà informació sobre el servei SSH només dient-li l'IP de l'equip que vulguis.
 
 **Entrada**
 
