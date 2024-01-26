@@ -1,4 +1,4 @@
-# DOCUMENTACIÓ TÈCNICA DE L'APLICACIÓ BAS SOLUTIONS
+# DGUIA D'USUARI DE L'APLICACIÓ BAS SOLUTIONS
 
 ## 1. MENÚ
 El menú consta de 7 opcions, les sis primeres són les eines i l'opció 7 és ficar una "q" i surt del menú.
@@ -11,6 +11,9 @@ https://github.com/SergiRoigSanchez/BAS-Solutions/blob/main/menu.py
 ```
 
 ## 2. SHODAN
+
+Shodan és un motor de cerca que es diferencia de les tradicionals eines de cerca ja que no busca contingut web convencional com arxius de text o imatges. En canvi, Shodan explora i indexa serveis en línia connectats a Internet. Aquesta plataforma escaneja tot tipus de dispositius connectats, incloent servidors, càmeres de seguretat, impressores, routers i molts altres dispositius que estan connectats a la xarxa.
+
 **Entrada**
 
 
@@ -22,6 +25,9 @@ https://github.com/SergiRoigSanchez/BAS-Solutions/blob/main/tasca1_shodan.py
 ```
 
 ## 2. THE HARVESTER
+
+The Harvester és una eina de recopilació d'informació (OSINT - Open Source Intelligence) dissenyada per a la recerca de dades relacionades amb l'espai de noms de domini, adreces de correu electrònic, noms d'usuari i altres detalls relacionats amb la identitat en línia. Aquesta eina és útil per a investigadors de seguretat informàtica, professionals de ciberseguretat i investigadors d'amenaces per obtenir informació que pot ser rellevant per a la seva feina.
+
 **Entrada**
 
 **Sortida**
@@ -32,6 +38,9 @@ https://github.com/SergiRoigSanchez/BAS-Solutions/blob/main/tasca2_harvester.py
 ```
 
 ## 3. OSINT
+
+OSINT, que significa "Open Source Intelligence" (Intel·ligència de Font Oberta), es refereix a la pràctica de recopilar i analitzar informació mitjançant fonts de dades públiques i obertes per obtenir una visió completa d'una situació, persona, organització o esdeveniment. Aquesta informació obtinguda mitjançant OSINT pot provenir de fonts com ara mitjans de comunicació, xarxes socials, llocs web públics, informes governamentals, i altres recursos disponibles al públic.
+
 **Entrada**
 
 **Sortida**
@@ -41,6 +50,9 @@ Per a consultar el codi entreu a aquesta URL:
 ```
 
 ## 4. ESCANEIG
+
+Nmap, que significa "Network Mapper," és una eina de seguretat informàtica i escaneig de xarxa. La funció principal de Nmap és detectar hosts i serveis en una xarxa, així com identificar les seves característiques i determinar si hi ha vulnerabilitats de seguretat.
+
 En aquesta eina quan entrem hi ha un menú amb diferents opcions:
 
 ![Menú escaneig](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/escm.png)
@@ -91,6 +103,9 @@ https://github.com/SergiRoigSanchez/BAS-Solutions/blob/main/tasca4_escaneig.py
 ```
 
 ## 5. SSH
+
+SSH, que significa "Secure Shell" (Cau segura), és un protocol de comunicació segura que s'utilitza per accedir i gestionar remotament dispositius o servidors a través d'una xarxa. Aquest protocol proporciona una connexió segura, encriptada i autenticada entre dos dispositius, permetent l'accés a la línia de comandes o la transferència segura de fitxers.
+
 **Entrada**
 
 ![Opció 5](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/ssh1.png)
@@ -109,6 +124,9 @@ https://github.com/SergiRoigSanchez/BAS-Solutions/blob/main/tasca5_ssh.py
 ```
 
 ## 6. ENUMERACIÓ
+
+La enumeració en el context informàtic es refereix al procés de recopilació i identificació sistemàtica d'informació sobre un sistema, xarxa o aplicació, amb l'objectiu de comprendre millor la infraestructura i identificar possibles punts febles o vulnerabilitats. Aquesta fase de recopilació d'informació és crítica per a la planificació d'atacs informàtics i per a la seguretat general d'un sistema.
+
 **Entrada**
 
 ![Opció 6](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/enu1.png)
@@ -121,6 +139,15 @@ https://github.com/SergiRoigSanchez/BAS-Solutions/blob/main/tasca6_enumeracio.py
 ```
 
 ## 7. BOT DE TELEGRAM
+
+Un bot de Telegram és un programa automàtic dissenyat per interactuar amb els usuaris a través de la plataforma de missatgeria Telegram. Aquests bots poden proporcionar diverses funcionalitats i serveis, i són utilitzats per una àmplia varietat d'usuaris, empreses i desenvolupadors per millorar l'experiència d'ús de Telegram. Algunes de les funcions comunes d'un bot de Telegram inclouen:
+
+Automatització de tasques
+- Serveis d'informació
+- Jocs
+- Conversació intel·ligent
+- Integració amb serveis externs
+
 **Imatges explicatives**
 - Per a iniciar el bot
 
@@ -142,6 +169,9 @@ https://github.com/SergiRoigSanchez/BAS-Solutions/blob/main/tasca_telegram.py
 ```
 
 ## 8. CONTENIDOR DOCKER PER AUDITORIES AUTOMATITZADES
+
+
+Un contenidor Docker és una unitat lleugera i portàtil que pot contenir aplicacions, les seves dependències i totes les configuracions necessàries perquè aquestes aplicacions s'executin correctament en qualsevol entorn. Docker és una plataforma de codi obert que facilita la creació, distribució i execució de contenidors.
 
 **Instal·lació de GO**
 
