@@ -190,11 +190,13 @@ Decarreguem la versió de Linux per a GO. Aquí està el link:
 https://go.dev/dl/
 ```
 ![Descarregar](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/cd1.png)
+
 Descomprimim el .tar.gz
 ```
 tar -xzvf go1.21.3.linux-amd64.tar.gz
 ```
 ![Descomprimir](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/cd2.png)
+
 Exportem les variables de path
 ```
 export GOROOT=/home/alumne/Documents/Programes/go
@@ -216,6 +218,7 @@ Clonem el repositori del docker-image-generator
 git clone https://github.com/tuxotron/docker-image-generator
 ```
 ![Clonar](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/cd6.png)
+
 Entrem dintre de la carpeta
 ```
 cd docker-image-generator
@@ -227,32 +230,38 @@ Instal·lem el docker-image-generator
 go build
 ```
 ![Instal·lar](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/cd8.png)
+
 Creem el docker
 ```
 ./doig -i bas_proxy -t anonsurf tinyproxy
 ```
 ![Crear docker](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/cd9.png)
 ![Entrem](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/cd10.png)
+
 Entrem al docker
 ```
 docker run -it --rm --privileged -p 8888:8888 bas_proxy
 ```
 ![Encendre](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/cd11.png)
+
 Posem en marxa l'anonsurf
 ```
 anonsurf start
 ```
 ![Executar](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/cd12.png)
+
 Executem el tinyproxy
 ```
 tinyproxy
 ```
 ![Execució](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/cd13.png)
+
 Cada vegada que vulguem posar en marxa el nostre proxy Tor haurem d'executar el contenidor i les dos comandes anteriors. Automatitzarem aquest procés:
 ```
 ./doig -d -t anonsurf tinyproxy > Dockerfile
 ```
 ![Automatic](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/cd14.png)
+
 Entrem al Dockerfile
 ```
 nano Dockerfile
@@ -260,12 +269,15 @@ nano Dockerfile
 ![nano](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/cd15.png)
 
 Li afegim la línia "CMD anonsurf start; tinyproxy -d" al final de l'arxiu. Això fa que Docker executi les dos comandes que necessitem al arrencar el contenidor. el -d fa que el tinyproxy s'executi al foreground.
+
 ![Afegir linea](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/cd16.png)
+
 Construim la imatge
 ```
 docker buildx build -t bas_proxy .
 ```
 ![Construir](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/cd17.png)
+
 Executem el contenidor. L'opció -d fa que el contenidor s'executi en segon pla.
 ```
 docker run -d -p 8888:8888 --privileged bas_proxy
@@ -309,6 +321,7 @@ docker push sergiroig/bas_proxy
 Ara és possible executar el contenidor des de qualsevol màquina que tingui Docker. Podem veure el repositori a la web.
 
 ![Executar](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/cd24.png)
+
 Si entrem podem veure quina és la comanda per a fer pull de la imatge.
 
 ![Comanda](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/cd25.png)
