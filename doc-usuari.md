@@ -14,10 +14,9 @@ https://github.com/SergiRoigSanchez/BAS-Solutions/blob/main/menu.py
 
 Shodan és un motor de cerca que es diferencia de les tradicionals eines de cerca ja que no busca contingut web convencional com arxius de text o imatges. En canvi, Shodan explora i indexa serveis en línia connectats a Internet. Aquesta plataforma escaneja tot tipus de dispositius connectats, incloent servidors, càmeres de seguretat, impressores, routers i molts altres dispositius que estan connectats a la xarxa.
 
-**Entrada**
-
-
 **Sortida**
+
+![shodan](https://github.com/betlem96/Documentacio-Projecte/blob/main/app/shodan.png)
 
 Per a consultar el codi entreu a aquesta URL:
 ```
@@ -28,9 +27,9 @@ https://github.com/SergiRoigSanchez/BAS-Solutions/blob/main/tasca1_shodan.py
 
 The Harvester és una eina de recopilació d'informació (OSINT - Open Source Intelligence) dissenyada per a la recerca de dades relacionades amb l'espai de noms de domini, adreces de correu electrònic, noms d'usuari i altres detalls relacionats amb la identitat en línia. Aquesta eina és útil per a investigadors de seguretat informàtica, professionals de ciberseguretat i investigadors d'amenaces per obtenir informació que pot ser rellevant per a la seva feina.
 
-**Entrada**
-
 **Sortida**
+
+![Menú](https://github.com/betlem96/Documentacio-Projecte/blob/main/app/the_harvester.png)
 
 Per a consultar el codi entreu a aquesta URL:
 ```
@@ -61,49 +60,33 @@ En aquesta eina quan entrem hi ha un menú amb diferents opcions:
 
 L'opció 1 ens ofereix escanejar i descobrir els host o equips que estan connectats a la nostra xarxa.
 
-**Entrada**
-
-![Opció 1](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/esc1.png)
-
 **Sortida**
 
-![Opció 1](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/esc1-2.png)
+![Opció 1](https://github.com/betlem96/Documentacio-Projecte/blob/main/app/nmap_hosts_actius.png)
 
 ### Opció 2
 
 L'opció 2 ens permet escanejar tots els ports de la nostra xarxa que estan obert.
 
-**Entrada**
-
-![Opció 2](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/esca2.png)
-
 **Sortida**
 
-![Opció 2](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/esc2-1.png)
+![Opció 2](https://github.com/betlem96/Documentacio-Projecte/blob/main/app/nmap_ports_oberts.png)
 
 ### Opció 3
 
 L'opció 3 ens permet saber les versions i els serveis que hi ha a l'IP que li diem.
 
-**Entrada**
-
-![Opció 3](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/esc3.png)
-
 **Sortida**
 
-![Opció 3](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/esc3-1.png)
+![Opció 3](https://github.com/betlem96/Documentacio-Projecte/blob/main/app/nmap_versions.png)
 
 ### Opció 4
 
 L'opció 4 ens permet veure totes les vulnerabilitats que hi ha l'IP que li diem com per exemple els ports que estan oberts a aquell equip.
 
-**Entrada**
-
-![Opció 4](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/esc4.png)
-
 **Sortida**
 
-![Opció 4](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/esc4-1.png)
+![Opció 4](https://github.com/betlem96/Documentacio-Projecte/blob/main/app/nmap_vulnerabilitats.png)
 
 Per a consultar el codi entreu a aquesta URL:
 ```
@@ -116,17 +99,9 @@ SSH, que significa "Secure Shell" (Cau segura), és un protocol de comunicació 
 
 Aquesta eina ens donarà informació sobre el servei SSH només dient-li l'IP de l'equip que vulguis.
 
-**Entrada**
-
-![Opció 5](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/ssh1.png)
-
 **Sortida**
 
-![Opció 5](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/ssh2.png)
-
-![Opció 5](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/ssh2-1.png)
-
-![Opció 5](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/ssh2-2.png)
+![Opció 5](https://github.com/betlem96/Documentacio-Projecte/blob/main/app/ssh_audit.png)
 
 Per a consultar el codi entreu a aquesta URL:
 ```
@@ -137,11 +112,9 @@ https://github.com/SergiRoigSanchez/BAS-Solutions/blob/main/tasca5_ssh.py
 
 La enumeració en el context informàtic es refereix al procés de recopilació i identificació sistemàtica d'informació sobre un sistema, xarxa o aplicació, amb l'objectiu de comprendre millor la infraestructura i identificar possibles punts febles o vulnerabilitats. Aquesta fase de recopilació d'informació és crítica per a la planificació d'atacs informàtics i per a la seguretat general d'un sistema.
 
-**Entrada**
-
-![Opció 6](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/enu1.png)
-
 **Sortida**
+
+![Opció 6](https://github.com/betlem96/Documentacio-Projecte/blob/main/app/enum4linux.png)
 
 Per a consultar el codi entreu a aquesta URL:
 ```
