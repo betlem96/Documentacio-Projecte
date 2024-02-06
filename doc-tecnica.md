@@ -11,10 +11,9 @@ https://github.com/SergiRoigSanchez/BAS-Solutions/blob/main/menu.py
 ```
 
 ## 2. SHODAN
-**Entrada**
-
-
 **Sortida**
+
+![shodan](https://github.com/betlem96/Documentacio-Projecte/blob/main/app/shodan.png)
 
 Per a consultar el codi entreu a aquesta URL:
 ```
@@ -22,9 +21,9 @@ https://github.com/SergiRoigSanchez/BAS-Solutions/blob/main/tasca1_shodan.py
 ```
 
 ## 2. THE HARVESTER
-**Entrada**
-
 **Sortida**
+
+![Menú](https://github.com/betlem96/Documentacio-Projecte/blob/main/app/the_harvester.png)
 
 Per a consultar el codi entreu a aquesta URL:
 ```
@@ -46,44 +45,24 @@ En aquesta eina quan entrem hi ha un menú amb diferents opcions:
 ![Menú escaneig](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/escm.png)
 
 ### Opció 1
-
-**Entrada**
-
-![Opció 1](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/esc1.png)
-
 **Sortida**
 
-![Opció 1](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/esc1-2.png)
+![Opció 1](https://github.com/betlem96/Documentacio-Projecte/blob/main/app/nmap_hosts_actius.png)
 
 ### Opció 2
-
-**Entrada**
-
-![Opció 2](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/esca2.png)
-
 **Sortida**
 
-![Opció 2](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/esc2-1.png)
+![Opció 2](https://github.com/betlem96/Documentacio-Projecte/blob/main/app/nmap_ports_oberts.png)
 
 ### Opció 3
-
-**Entrada**
-
-![Opció 3](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/esc3.png)
-
 **Sortida**
 
-![Opció 3](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/esc3-1.png)
+![Opció 3](https://github.com/betlem96/Documentacio-Projecte/blob/main/app/nmap_versions.png)
 
 ### Opció 4
-
-**Entrada**
-
-![Opció 4](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/esc4.png)
-
 **Sortida**
 
-![Opció 4](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/esc4-1.png)
+![Opció 4](https://github.com/betlem96/Documentacio-Projecte/blob/main/app/nmap_vulnerabilitats.png)
 
 Per a consultar el codi entreu a aquesta URL:
 ```
@@ -91,17 +70,9 @@ https://github.com/SergiRoigSanchez/BAS-Solutions/blob/main/tasca4_escaneig.py
 ```
 
 ## 5. SSH
-**Entrada**
-
-![Opció 5](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/ssh1.png)
-
 **Sortida**
 
-![Opció 5](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/ssh2.png)
-
-![Opció 5](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/ssh2-1.png)
-
-![Opció 5](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/ssh2-2.png)
+![Opció 5](https://github.com/betlem96/Documentacio-Projecte/blob/main/app/ssh_audit.png)
 
 Per a consultar el codi entreu a aquesta URL:
 ```
@@ -109,11 +80,9 @@ https://github.com/SergiRoigSanchez/BAS-Solutions/blob/main/tasca5_ssh.py
 ```
 
 ## 6. ENUMERACIÓ
-**Entrada**
-
-![Opció 6](https://github.com/betlem96/Documentacio-Projecte/blob/main/imatges/enu1.png)
-
 **Sortida**
+
+![Opció 6](https://github.com/betlem96/Documentacio-Projecte/blob/main/app/enum4linux.png)
 
 Per a consultar el codi entreu a aquesta URL:
 ```
